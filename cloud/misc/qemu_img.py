@@ -63,6 +63,25 @@ EXAMPLES = '''
 '''
 
 
+RETURN = '''
+# create qemu image
+present:
+  type: string
+  sample: "success"
+  returned: success
+# remove qemu image
+absent:
+  type: string
+  sample: "success"
+  returned: success
+# resize qemu image
+resize:
+  type: string
+  sample: "sucess"
+  returned: success
+'''
+
+
 import os
 from ansible.module_utils.basic import *
 
