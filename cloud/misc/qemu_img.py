@@ -26,7 +26,7 @@ module: qemu_img
 short_description: Create qemu images
 description:
   - "This module creates images for qemu."
-version_added: "1.1"
+version_added: "2.2"
 options:
   dest:
     description: The image file to create or remove
